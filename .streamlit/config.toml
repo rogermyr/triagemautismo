@@ -1,6 +1,5 @@
-[theme] # You have to add this line
-
-primaryColor = '#FF0000' # Red
-backgroundColor = '#00325B' # Dark Blue
-secondaryBackgroundColor = '#55B2FF' # Lighter Blue
+[theme]
+primaryColor = '#FF0000'
+backgroundColor = '#00325B'
+secondaryBackgroundColor = '#55B2FF'
 textColor="#FFFFFF"
