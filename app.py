@@ -2,6 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import pickle
+import sklearn
 
 st.set_page_config(page_title="Diagnóstico de Autismo Leve em Adultos", page_icon="chart_with_upwards_trend", layout="centered", initial_sidebar_state = "auto")
 
