@@ -11,9 +11,9 @@ enableCORS=false\n\
 port = $PORT\n\
 \n\
 [theme]\n\
-primaryColor = '#eb4034'\n\
-backgroundColor = '#021d24'\n\
-secondaryBackgroundColor = '#B9F1C0'\n\
+primaryColor = '#FF0000'\n\
+backgroundColor = '#00325B'\n\
+secondaryBackgroundColor = '#55B2FF'\n\
 textColor = '#FFFFFF'\n\
 font = 'sans serif'\n\
 " > ~/.streamlit/config.toml
