@@ -9,7 +9,6 @@ echo "\
 headless = true\n\
 enableCORS=false\n\
 port = $PORT\n\
-\n\
 [theme]\n\
 primaryColor = '#FF0000'\n\
 backgroundColor = '#00325B'\n\
