@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 
-st.set_page_config(page_title="Diagnóstico de Autismo Leve em Adultos", page_icon="chart_with_upwards_trend", layout="centered", initial_sidebar_state = "auto")
+st.set_page_config(page_title="Triagem de Autismo Leve em Adultos", page_icon="chart_with_upwards_trend", layout="centered", initial_sidebar_state = "auto")
 
 model = pickle.load(open('model.pkl','rb'))
 
@@ -69,7 +69,7 @@ def predict(A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, genero, ictericia, familiar
     else:
         return 'POSITIVO. Há suspeitas para o autismo. É aconselhado procurar um Psiquiatra ou Neurologista especializado no Transtorno do Espectro Autista.'
 
-st.markdown("<h4 style='text-align: center; color: yellow; font-weight: bold'>Ferramenta de apoio ao Diagnóstico de Autismo Leve em Adultos</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center; color: yellow; font-weight: bold'>Ferramenta de Triagem de Autismo Leve em Adultos</h4>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center;font-weight: bold; color: white'>Desenvolvido por: Rogério Henriques Silva.", unsafe_allow_html=True)    
 st.markdown("<p style='text-align: center;font-weight: bold; color: white'>Curso: MBA em Data Science & Analytics - USP/ESALQ</p>", unsafe_allow_html=True)    
 col1, col2, col3 = st.columns(3)
